@@ -28,56 +28,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-body{
-  background:black;
-  color:white
-}
-h2{
-  border-bottom: 1px solid grey;
-}
-.multiplayer{
-  text-align: center;
-  border: 1px solid grey
-}
-.solo{
-  text-align: center;
-  border: 1px solid grey;
-}
-.tetra{
-  text-align: center;
-  border: 1px solid grey;
-}
-.config{
-  text-align: center;
-  border: 1px solid grey;
-}
-.about{
-  text-align: center;
-  border: 1px solid grey;
-}
-.welcome{
-  border-top: 1px solid grey
-}
+@keyframes App-logo-spin {from {transform: rotate(0deg);} to {transform: rotate(360deg);}}
+body{background:black;color:white}
+h2{border-bottom: 1px solid grey;}
+.multiplayer{text-align: center; border: 1px solid grey;color:pink; margin-left: 20%;}
+.solo{text-align: center; border: 1px solid grey; color:rgb(160, 150, 220); margin-left: 20%;}
+.tetra{text-align: center; border: 1px solid grey;color: lightgreen; margin-left: 20%;}
+.config{text-align: center; border: 1px solid grey;color:rgb(79, 79, 255); margin-left: 20%;}
+.about{text-align: center; border: 1px solid grey;color:grey; margin-left: 20%;}
+.welcome{border-top: 1px solid grey;color:grey;}
 .home {color:rgb(34, 106, 151)}
-.multiplayer {color:pink; margin-left: 20%;}
-.solo {color:blueviolet; margin-left: 20%;}
-.tetra {color: lightgreen; margin-left: 20%;}
-.config {color:rgb(79, 79, 255); margin-left: 20%;}
-.about {color:grey; margin-left: 20%;}
+
 .multiplayer:hover {animation: box-animation 0.5s;}
 .solo:hover {animation: box-animation 0.5s;}
 .tetra:hover {animation: box-animation 0.5s;}
 .config:hover {animation: box-animation 0.5s;}
 .about:hover {animation: box-animation 0.5s;}
-.welcome {color:grey;}
+
 @keyframes box-animation{
   0% {transform: translateX(0px)}
     100% {transform: translateX(-100px)}}

@@ -28,11 +28,11 @@ function App() {
             </body>
           </div>
         }></Route>
-        <Route path="/Multiplayer" element={<a href="http://localhost:3000">Home</a>}></Route>
-        <Route path="/Solo" element={<a href="http://localhost:3000">Home</a>}></Route>
-        <Route path="/Tetra" element={<a href="http://localhost:3000">Home</a>}></Route>
-        <Route path="/Config" element={<a href="http://localhost:3000">Home</a>}></Route>
-        <Route path="/About" element={<a href="http://localhost:3000">Home</a>}></Route>
+        <Route path="/Multiplayer" element={<a href="/">Home</a>}></Route>
+        <Route path="/Solo" element={<a href="/">Home</a>}></Route>
+        <Route path="/Tetra" element={<a href="/">Home</a>}></Route>
+        <Route path="/Config" element={<a href="/">Home</a>}></Route>
+        <Route path="/About" element={<a href="/">Home</a>}></Route>
       </Routes>
     </BrowserRouter>
     </div>

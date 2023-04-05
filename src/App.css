@@ -30,14 +30,14 @@
 
 @keyframes App-logo-spin {from {transform: rotate(0deg);} to {transform: rotate(360deg);}}
 body{background:black;color:white}
-h2{border-bottom: 1px solid grey;}
+
 .multiplayer{text-align: center; border: 1px solid grey;color:rgb(243,186,219); margin-left: 20%;border-radius: 5px}
 .solo{text-align: center; border: 1px solid grey; color:rgb(184,183,215); margin-left: 20%;border-radius: 5px}
 .tetra{text-align: center; border: 1px solid grey;color: rgb(131,255,146); margin-left: 20%;border-radius: 5px}
 .config{text-align: center; border: 1px solid grey;color:rgb(138,178,254); margin-left: 20%;border-radius: 5px}
 .about{text-align: center; border: 1px solid grey;color:rgb(187,187,187); margin-left: 20%;border-radius: 5px}
 .welcome{text-align: left;border-top: 1px solid grey;color:rgb(140,143,159);}
-.home {text-align: left;color:rgb(140,143,159)}
+.home {text-align: left;color:rgb(140,143,159);border-bottom: 1px solid grey;padding:0;margin:0;}
 a {text-decoration:none;}
 .multiplayer:hover {animation: box-animation 0.5s;}
 .solo:hover {animation: box-animation 0.5s;}

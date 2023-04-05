@@ -38,7 +38,7 @@ h2{border-bottom: 1px solid grey;}
 .about{text-align: center; border: 1px solid grey;color:rgb(187,187,187); margin-left: 20%;border-radius: 5px}
 .welcome{text-align: left;border-top: 1px solid grey;color:rgb(140,143,159);}
 .home {text-align: left;color:rgb(140,143,159)}
-
+a {text-decoration:none;}
 .multiplayer:hover {animation: box-animation 0.5s;}
 .solo:hover {animation: box-animation 0.5s;}
 .tetra:hover {animation: box-animation 0.5s;}

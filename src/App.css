@@ -39,11 +39,11 @@ body{background:black;color:white}
 .welcome{text-align: left;border-top: 1px solid grey;color:rgb(140,143,159);}
 .home {text-align: left;color:rgb(140,143,159);border-bottom: 1px solid grey;padding:0;margin:0;}
 a {text-decoration:none;}
-.multiplayer:hover {animation: box-animation 0.5s;}
-.solo:hover {animation: box-animation 0.5s;}
-.tetra:hover {animation: box-animation 0.5s;}
-.config:hover {animation: box-animation 0.5s;}
-.about:hover {animation: box-animation 0.5s;}
+.multiplayer:hover {animation: box-animation 0.5s;animation-fill-mode:forwards}
+.solo:hover {animation: box-animation 0.5s;animation-fill-mode:forwards}
+.tetra:hover {animation: box-animation 0.5s;animation-fill-mode:forwards}
+.config:hover {animation: box-animation 0.5s;animation-fill-mode:forwards}
+.about:hover {animation: box-animation 0.5s;animation-fill-mode:forwards}
 
 @keyframes box-animation{
   0% {transform: translateX(0px)}
